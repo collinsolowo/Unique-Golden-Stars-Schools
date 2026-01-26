@@ -13,7 +13,7 @@ export default function Home() {
   // Video playback handling (attempt autoplay with sound; if blocked, show play overlay)
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const [isAutoplayBlocked, setIsAutoplayBlocked] = useState(false);
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [, setIsPlaying] = useState(false); // skip unused state variable to avoid TS6133
 
   useEffect(() => {
     // Try to play the video with sound automatically.
