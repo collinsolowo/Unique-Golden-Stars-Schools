@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from 'react';
+import  { useRef, useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Download, Calendar, Users, BookOpen, Award, Play, ChevronRight } from 'lucide-react';
 import AnimateOnScroll from '../components/AnimateOnScroll';
