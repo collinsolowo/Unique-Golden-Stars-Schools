@@ -1,0 +1,172 @@
+{
+  "process": {
+    "steps": [
+      {
+        "number": 1,
+        "title": "Inquiry & Information Gathering",
+        "description": "Visit our website or contact our admissions office to learn about our programs, facilities, and admission requirements. Attend our open house events or schedule a campus tour."
+      },
+      {
+        "number": 2,
+        "title": "Application Submission",
+        "description": "Complete the online application form and submit required documents including birth certificate, previous school records, passport photographs, and application fee."
+      },
+      {
+        "number": 3,
+        "title": "Entrance Examination",
+        "description": "Applicants will be invited to sit for our entrance examination, which assesses English, Mathematics, and General Knowledge appropriate to the entry level."
+      },
+      {
+        "number": 4,
+        "title": "Interview & Assessment",
+        "description": "Successful candidates from the entrance examination will be invited for an interview with the school management and academic staff."
+      },
+      {
+        "number": 5,
+        "title": "Admission Offer & Acceptance",
+        "description": "Selected candidates will receive an admission offer letter. Parents must accept the offer and pay the required fees to secure the student's place."
+      },
+      {
+        "number": 6,
+        "title": "Enrollment & Orientation",
+        "description": "Complete final enrollment documentation and attend orientation programs to prepare for the academic year."
+      }
+    ]
+  },
+  "requirements": {
+    "nursery": [
+      "Birth Certificate",
+      "Immunization Records",
+      "2 Passport Photographs",
+      "Parent/Guardian ID",
+      "Application Fee: ₦10,000"
+    ],
+    "primary": [
+      "Birth Certificate",
+      "Previous School Records (if applicable)",
+      "2 Passport Photographs",
+      "Parent/Guardian ID",
+      "Last Academic Report",
+      "Application Fee: ₦15,000"
+    ],
+    "secondary": [
+      "Birth Certificate",
+      "Previous School Records",
+      "2 Passport Photographs",
+      "Parent/Guardian ID",
+      "Last Academic Report",
+      "Character Reference Letter",
+      "Application Fee: ₦20,000"
+    ],
+    "predegree": [
+      "Birth Certificate",
+      "O'Level Results (WAEC/NECO/IGCSE)",
+      "2 Passport Photographs",
+      "Parent/Guardian ID",
+      "Character Reference Letter",
+      "Application Fee: ₦25,000"
+    ]
+  },
+  "tuition": {
+    "nursery": {
+      "annual": "₦800,000 - ₦1,200,000",
+      "breakdown": {
+        "tuition": "₦600,000",
+        "development": "₦100,000",
+        "books": "₦50,000",
+        "uniforms": "₦50,000"
+      }
+    },
+    "primary": {
+      "annual": "₦1,000,000 - ₦1,500,000",
+      "breakdown": {
+        "tuition": "₦800,000",
+        "development": "₦150,000",
+        "books": "₦75,000",
+        "uniforms": "₦75,000"
+      }
+    },
+    "secondary": {
+      "annual": "₦1,500,000 - ₦2,500,000",
+      "breakdown": {
+        "tuition": "₦1,200,000",
+        "development": "₦200,000",
+        "books": "₦100,000",
+        "uniforms": "₦100,000"
+      }
+    },
+    "predegree": {
+      "annual": "₦2,000,000 - ₦3,000,000",
+      "breakdown": {
+        "tuition": "₦1,600,000",
+        "development": "₦250,000",
+        "books": "₦100,000",
+        "uniforms": "₦50,000"
+      }
+    },
+    "boarding": "₦500,000 - ₦1,000,000 (annual)",
+    "payment": [
+      "Full payment at beginning of term (5% discount)",
+      "Two installments (beginning and mid-term)",
+      "Monthly payment plan (available on request)"
+    ]
+  },
+  "scholarships": [
+    {
+      "name": "Academic Excellence Scholarship",
+      "description": "Full or partial scholarships for students who demonstrate exceptional academic ability through entrance examinations and continuous assessment.",
+      "coverage": ["Full tuition", "Books and materials", "Examination fees"],
+      "eligibility": ["Top 5% in entrance examination", "Minimum 90% average in previous school", "Strong character reference"]
+    },
+    {
+      "name": "Leadership Scholarship",
+      "description": "Awarded to students who have demonstrated outstanding leadership potential in their previous schools or communities.",
+      "coverage": ["Partial tuition waiver", "Leadership development programs"],
+      "eligibility": ["Evidence of leadership roles", "Community service record", "Strong recommendation letters"]
+    },
+    {
+      "name": "Arts & Sports Scholarship",
+      "description": "For students with exceptional talents in creative arts, music, or sports who can contribute to the school's extracurricular programs.",
+      "coverage": ["Partial tuition waiver", "Specialized training support"],
+      "eligibility": ["Portfolio or audition", "Regional or national recognition", "Commitment to school programs"]
+    },
+    {
+      "name": "Need-Based Scholarship",
+      "description": "Financial assistance for families who demonstrate genuine need and inability to afford full tuition fees.",
+      "coverage": ["Partial to full tuition waiver based on assessment"],
+      "eligibility": ["Financial assessment", "Academic merit", "Interview with scholarship committee"]
+    }
+  ],
+  "exams": {
+    "schedule": [
+      {
+        "date": "2025-03-15",
+        "time": "9:00 AM",
+        "level": "Nursery & Primary",
+        "venue": "Main Campus, Ikeja"
+      },
+      {
+        "date": "2025-03-22",
+        "time": "9:00 AM",
+        "level": "Secondary",
+        "venue": "High School Campus, Ikeja"
+      },
+      {
+        "date": "2025-04-05",
+        "time": "10:00 AM",
+        "level": "Pre-Degree College",
+        "venue": "Lekki Campus"
+      }
+    ],
+    "subjects": {
+      "nursery": ["Readiness Assessment", "Motor Skills Test", "Social Interaction"],
+      "primary": ["English Language", "Mathematics", "Quantitative Reasoning", "Verbal Reasoning"],
+      "secondary": ["English Language", "Mathematics", "General Science", "General Knowledge"],
+      "predegree": ["English Language", "Mathematics", "Three Relevant Subjects"]
+    },
+    "results": {
+      "announcement": "Results will be announced within 2 weeks of examination date",
+      "check": "Results can be checked online using the candidate's registration number"
+    }
+  }
+}

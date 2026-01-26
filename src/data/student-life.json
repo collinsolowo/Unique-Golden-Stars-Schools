@@ -1,0 +1,140 @@
+{
+  "clubs": [
+    {
+      "name": "Science Club",
+      "description": "Exploring the wonders of science through experiments, competitions, and field trips. Members participate in science fairs and national competitions.",
+      "activities": ["Weekly experiments", "Science fair preparation", "Guest lectures", "Museum visits"],
+      "meeting": "Fridays, 3:00 PM - 4:30 PM"
+    },
+    {
+      "name": "Debate & Public Speaking",
+      "description": "Developing critical thinking and communication skills through competitive debate and public speaking events.",
+      "activities": ["Weekly practice sessions", "Inter-school competitions", "Mock debates", "Public speaking workshops"],
+      "meeting": "Tuesdays & Thursdays, 3:00 PM - 4:30 PM"
+    },
+    {
+      "name": "Drama & Theatre",
+      "description": "Nurturing creativity and self-expression through theatrical performances, workshops, and productions.",
+      "activities": ["Rehearsals", "Annual productions", "Theatre workshops", "Script writing"],
+      "meeting": "Mondays, Wednesdays & Fridays, 3:00 PM - 5:00 PM"
+    },
+    {
+      "name": "Music & Choir",
+      "description": "Developing musical talents through vocal training, instrumental lessons, and performances.",
+      "activities": ["Choir practice", "Instrument lessons", "School performances", "Music competitions"],
+      "meeting": "Tuesdays & Thursdays, 3:00 PM - 4:30 PM"
+    },
+    {
+      "name": "Art & Design",
+      "description": "Exploring various art forms including painting, sculpture, graphic design, and digital art.",
+      "activities": ["Art workshops", "Exhibitions", "Art competitions", "Community art projects"],
+      "meeting": "Wednesdays, 3:00 PM - 5:00 PM"
+    },
+    {
+      "name": "Coding & Robotics",
+      "description": "Building digital literacy and problem-solving skills through programming and robotics.",
+      "activities": ["Coding sessions", "Robot building", "Hackathons", "Tech competitions"],
+      "meeting": "Saturdays, 10:00 AM - 12:00 PM"
+    },
+    {
+      "name": "Environmental Club",
+      "description": "Promoting environmental awareness and sustainability through projects and community initiatives.",
+      "activities": ["Tree planting", "Recycling programs", "Environmental campaigns", "Nature walks"],
+      "meeting": "Fridays, 3:00 PM - 4:00 PM"
+    },
+    {
+      "name": "Young Entrepreneurs",
+      "description": "Developing business skills and entrepreneurial mindset through practical projects and mentorship.",
+      "activities": ["Business plan development", "Mentorship sessions", "Market days", "Startup visits"],
+      "meeting": "Thursdays, 3:00 PM - 4:30 PM"
+    }
+  ],
+  "sports": [
+    {
+      "name": "Football (Soccer)",
+      "description": "Training in football skills, teamwork, and competitive play. Teams compete in inter-school and regional tournaments.",
+      "season": "All year round",
+      "coach": "Coach Emmanuel Adebayo",
+      "facilities": ["Standard football pitch", "Training equipment", "Locker rooms"]
+    },
+    {
+      "name": "Basketball",
+      "description": "Developing basketball skills, strategy, and competitive spirit through training and tournaments.",
+      "season": "All year round",
+      "coach": "Coach Michael Okonkwo",
+      "facilities": ["Indoor basketball court", "Training equipment", "Scoreboard"]
+    },
+    {
+      "name": "Swimming",
+      "description": "Professional swimming training for all levels, from beginners to competitive swimmers.",
+      "season": "All year round",
+      "coach": "Coach Sarah Johnson",
+      "facilities": ["Olympic-size pool", "Training pool", "Changing facilities"]
+    },
+    {
+      "name": "Track & Field",
+      "description": "Athletics training including sprinting, long-distance running, jumping, and throwing events.",
+      "season": "All year round",
+      "coach": "Coach David Peters",
+      "facilities": ["400m track", "Field event areas", "Training equipment"]
+    },
+    {
+      "name": "Tennis",
+      "description": "Professional tennis coaching for beginners and advanced players, with opportunities for tournament participation.",
+      "season": "All year round",
+      "coach": "Coach Patricia Williams",
+      "facilities": ["Tennis courts", "Training equipment", "Spectator seating"]
+    },
+    {
+      "name": "Volleyball",
+      "description": "Team volleyball training focusing on skills, coordination, and competitive play.",
+      "season": "All year round",
+      "coach": "Coach Grace Okafor",
+      "facilities": ["Volleyball courts", "Training equipment", "Net systems"]
+    }
+  ],
+  "community": [
+    {
+      "title": "Outreach Programs",
+      "description": "Students participate in various community outreach initiatives including visiting orphanages, hospitals, and elderly care centers.",
+      "activities": ["Monthly orphanage visits", "Hospital volunteering", "Elderly care support", "Food drives"]
+    },
+    {
+      "title": "Educational Support",
+      "description": "Supporting less privileged students through tutoring programs and educational material donations.",
+      "activities": ["Peer tutoring", "Book donations", "School supply drives", "Literacy programs"]
+    },
+    {
+      "title": "Environmental Initiatives",
+      "description": "Community environmental projects promoting sustainability and environmental awareness.",
+      "activities": ["Community clean-ups", "Tree planting campaigns", "Recycling education", "River cleanup"]
+    },
+    {
+      "title": "Fundraising Events",
+      "description": "Annual fundraising events supporting various charitable causes and school development projects.",
+      "activities": ["Charity walks", "Benefit concerts", "Auction events", "Sponsorship drives"]
+    }
+  ],
+  "support": [
+    {
+      "service": "Counseling Services",
+      "description": "Professional counseling support for students dealing with academic stress, emotional challenges, or personal issues. Confidential sessions available."
+    },
+    {
+      "service": "Learning Support",
+      "description": "Specialized support for students with learning difficulties, including dyslexia support, ADHD management, and personalized learning plans."
+    },
+    {
+      "service": "Career Guidance",
+      "description": "Comprehensive career counseling and university placement assistance, including aptitude testing, university applications, and scholarship guidance."
+    },
+    {
+      "service": "Health Services",
+      "description": "On-site health clinic with qualified nurses, first aid services, and health education programs."
+    },
+    {
+      "service": "Academic Mentoring",
+      "description": "One-on-one academic mentoring programs pairing students with teachers for personalized academic support and guidance."
+    }
+  ]
+}

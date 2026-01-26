@@ -1,0 +1,112 @@
+{
+  "gallery": [
+    {
+      "id": "1",
+      "title": "Cultural Day Celebration 2024",
+      "category": "Events",
+      "date": "2024-11-15",
+      "type": "photo",
+      "image": "/images/gallery/cultural-day.jpg",
+      "description": "Students showcase Nigeria's rich cultural heritage through traditional dances, music, and attires during our annual Cultural Day celebration."
+    },
+    {
+      "id": "2",
+      "title": "Inter-House Sports Competition",
+      "category": "Sports",
+      "date": "2024-10-20",
+      "type": "photo",
+      "image": "/images/gallery/sports-day.jpg",
+      "description": "Annual inter-house sports competition featuring track and field events, football, and various athletic competitions."
+    },
+    {
+      "id": "3",
+      "title": "Science Laboratory Sessions",
+      "category": "Academics",
+      "date": "2024-10-15",
+      "type": "photo",
+      "image": "/images/gallery/science-lab.jpg",
+      "description": "Students conducting practical chemistry experiments in our state-of-the-art science laboratories."
+    },
+    {
+      "id": "4",
+      "title": "Environmental Education Day",
+      "category": "Events",
+      "date": "2024-09-22",
+      "type": "photo",
+      "image": "/images/gallery/gardening.jpg",
+      "description": "Students learning about environmental conservation through hands-on gardening and tree planting activities."
+    },
+    {
+      "id": "5",
+      "title": "Annual Prize Giving Day",
+      "category": "Events",
+      "date": "2024-07-30",
+      "type": "photo",
+      "image": "/images/gallery/awards-day.jpg",
+      "description": "Celebrating academic excellence as we honor our top-performing students across all departments."
+    },
+    {
+      "id": "6",
+      "title": "ICT and Computer Studies",
+      "category": "Academics",
+      "date": "2024-09-10",
+      "type": "photo",
+      "image": "/images/gallery/computer-lab.jpg",
+      "description": "Students developing digital literacy skills in our modern computer laboratory equipped with the latest technology."
+    },
+    {
+      "id": "7",
+      "title": "Graduation Ceremony 2024",
+      "category": "Events",
+      "date": "2024-07-15",
+      "type": "photo",
+      "image": "/images/gallery/graduation.jpg",
+      "description": "Celebrating the achievements of our graduating class as they embark on the next chapter of their academic journey."
+    },
+    {
+      "id": "8",
+      "title": "STEM Innovation Workshop",
+      "category": "Academics",
+      "date": "2024-08-20",
+      "type": "photo",
+      "image": "/images/gallery/science-lab.jpg",
+      "description": "Hands-on robotics and coding workshop at our STEM Innovation Center."
+    },
+    {
+      "id": "9",
+      "title": "Music and Arts Festival",
+      "category": "Events",
+      "date": "2024-05-25",
+      "type": "photo",
+      "image": "/images/gallery/cultural-day.jpg",
+      "description": "Annual music and arts festival showcasing the creative talents of our students."
+    },
+    {
+      "id": "10",
+      "title": "Community Service Project",
+      "category": "Community",
+      "date": "2024-04-15",
+      "type": "photo",
+      "image": "/images/gallery/gardening.jpg",
+      "description": "Students participating in community service projects to give back to society."
+    },
+    {
+      "id": "11",
+      "title": "Swimming Gala",
+      "category": "Sports",
+      "date": "2024-03-30",
+      "type": "photo",
+      "image": "/images/gallery/sports-day.jpg",
+      "description": "Annual swimming competition showcasing aquatic talents across all age groups."
+    },
+    {
+      "id": "12",
+      "title": "Spelling Bee Competition",
+      "category": "Academics",
+      "date": "2024-02-20",
+      "type": "photo",
+      "image": "/images/gallery/awards-day.jpg",
+      "description": "Inter-school spelling bee competition promoting literacy and vocabulary development."
+    }
+  ]
+}

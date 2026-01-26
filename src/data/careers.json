@@ -1,0 +1,143 @@
+{
+  "opportunities": [
+    {
+      "id": "1",
+      "title": "Teaching Trainee Program",
+      "department": "Education",
+      "type": "Full-time",
+      "location": "Lagos",
+      "description": "A comprehensive training program for passionate graduates aged 27 or below who are eager to make a difference in education. This program offers expert mentorship, hands-on teaching experience, and opportunities for career growth.",
+      "requirements": [
+        "Recent graduate (27 years or younger)",
+        "Degree in Education or related fields",
+        "Genuine love for teaching and shaping young minds",
+        "Strong communication and interpersonal skills",
+        "Minimum of Second Class Upper division"
+      ],
+      "benefits": [
+        "Comprehensive training and expert mentorship",
+        "Dynamic and supportive work environment",
+        "Opportunities for career growth",
+        "Competitive stipend during training",
+        "Guaranteed employment upon successful completion"
+      ],
+      "applicationDeadline": "2025-03-31",
+      "active": true
+    },
+    {
+      "id": "2",
+      "title": "Mathematics Teacher (Secondary)",
+      "department": "Mathematics",
+      "type": "Full-time",
+      "location": "Ikeja",
+      "description": "We are seeking a passionate and experienced Mathematics teacher to join our secondary school faculty. The ideal candidate will have a strong background in mathematics and the ability to inspire students to excel in the subject.",
+      "requirements": [
+        "Bachelor's degree in Mathematics or related field",
+        "Minimum 3 years teaching experience",
+        "Teaching qualification (PGDE, B.Ed)",
+        "Experience with IGCSE/WASSCE curriculum preferred",
+        "Excellent classroom management skills"
+      ],
+      "benefits": [
+        "Competitive salary package",
+        "Professional development opportunities",
+        "Health insurance coverage",
+        "Pension scheme",
+        "Annual leave allowance"
+      ],
+      "applicationDeadline": "2025-02-28",
+      "active": true
+    },
+    {
+      "id": "3",
+      "title": "Science Laboratory Technician",
+      "department": "Science",
+      "type": "Full-time",
+      "location": "Lekki",
+      "description": "Responsible for managing school science laboratories, preparing practical experiments, and ensuring safety standards are maintained.",
+      "requirements": [
+        "OND/HND in Laboratory Technology or related field",
+        "Minimum 2 years experience in educational setting",
+        "Knowledge of laboratory safety protocols",
+        "Good organizational skills",
+        "Ability to work with students and teachers"
+      ],
+      "benefits": [
+        "Competitive salary",
+        "Health insurance",
+        "Training opportunities",
+        "Pension scheme"
+      ],
+      "applicationDeadline": "2025-02-15",
+      "active": true
+    },
+    {
+      "id": "4",
+      "title": "School Counselor",
+      "department": "Student Services",
+      "type": "Full-time",
+      "location": "Ikeja",
+      "description": "Provide counseling services to students, supporting their emotional, social, and academic development. Work with parents and teachers to create a supportive learning environment.",
+      "requirements": [
+        "Bachelor's degree in Psychology, Counseling, or related field",
+        "Professional counseling certification",
+        "Minimum 3 years experience in educational counseling",
+        "Excellent communication skills",
+        "Experience with adolescent counseling preferred"
+      ],
+      "benefits": [
+        "Competitive salary package",
+        "Professional development support",
+        "Health insurance",
+        "Pension scheme",
+        "Supportive work environment"
+      ],
+      "applicationDeadline": "2025-03-15",
+      "active": true
+    },
+    {
+      "id": "5",
+      "title": "Sports Coach",
+      "department": "Sports",
+      "type": "Full-time",
+      "location": "Ikeja",
+      "description": "Lead and develop the school's sports programs, train students in various sports, and prepare teams for inter-school competitions.",
+      "requirements": [
+        "Degree in Physical Education or Sports Science",
+        "Coaching certification",
+        "Minimum 3 years coaching experience",
+        "Experience with school sports programs",
+        "First aid certification"
+      ],
+      "benefits": [
+        "Competitive salary",
+        "Sports facilities access",
+        "Professional development",
+        "Health insurance",
+        "Pension scheme"
+      ],
+      "applicationDeadline": "2025-02-28",
+      "active": true
+    }
+  ],
+  "benefits": [
+    "Competitive salary packages",
+    "Comprehensive health insurance",
+    "Pension scheme",
+    "Professional development opportunities",
+    "Access to school facilities",
+    "Staff children education discount",
+    "Annual leave allowance",
+    "Supportive work environment",
+    "Career advancement opportunities"
+  ],
+  "applicationProcess": [
+    "Submit CV and cover letter online",
+    "Initial screening by HR team",
+    "Subject-specific assessment (for teaching roles)",
+    "Interview with department head",
+    "Final interview with management",
+    "Reference and background checks",
+    "Offer and contract signing"
+  ]
+}

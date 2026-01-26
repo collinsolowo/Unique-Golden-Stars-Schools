@@ -1,0 +1,112 @@
+{
+  "campuses": [
+    {
+      "id": "nursery-vgc",
+      "name": "Golden Stars Nursery School VGC",
+      "category": "nursery",
+      "established": "2005",
+      "address": "Road 12, Victoria Garden City (VGC), Ajah, Lagos",
+      "phone": ["08172013114", "08023421214"],
+      "email": "nursery-vgc@uniquegoldenstars.edu.ng",
+      "image": "/images/campuses/nursery-campus.jpg",
+      "headTeacher": "Mrs. Adebayo Akinwande",
+      "description": "Our beautiful nursery school provides a nurturing environment for children aged 6 months to 5 years, with purpose-built ultra-modern facilities.",
+      "facilities": ["Montessori Learning Center", "Playground", "Swimming Pool", "Music Room", "Art Studio"],
+      "stats": {
+        "studentRatio": "1:10",
+        "studentPopulation": "300+",
+        "campusSize": "1 Acre"
+      }
+    },
+    {
+      "id": "primary-main",
+      "name": "Golden Stars Primary School Main Campus",
+      "category": "primary",
+      "established": "2000",
+      "address": "25 Unity Avenue, Ikeja, Lagos",
+      "phone": ["08037193587", "08023050901"],
+      "email": "primary-main@uniquegoldenstars.edu.ng",
+      "image": "/images/campuses/main-campus.jpg",
+      "headTeacher": "Mr. Samuel Okonkwo",
+      "description": "Our main primary campus offers world-class education from Year 1 to Year 6, preparing students for academic excellence.",
+      "facilities": ["Computer Lab", "Science Lab", "Library", "Sports Field", "Swimming Pool"],
+      "stats": {
+        "studentRatio": "1:15",
+        "studentPopulation": "500+",
+        "campusSize": "2 Acres"
+      }
+    },
+    {
+      "id": "secondary-ikeja",
+      "name": "Golden Stars High School Ikeja",
+      "category": "secondary",
+      "established": "2005",
+      "address": "27 Unity Avenue, Ikeja, Lagos",
+      "phone": ["08134366988", "08035807364"],
+      "email": "secondary-ikeja@uniquegoldenstars.edu.ng",
+      "image": "/images/campuses/secondary-campus.jpg",
+      "headTeacher": "Mrs. Grace Adeyemi",
+      "description": "Our secondary school provides rigorous academic programs preparing students for university and beyond.",
+      "facilities": ["Advanced Science Labs", "ICT Center", "Sports Complex", "Auditorium", "Boarding Facilities"],
+      "stats": {
+        "studentRatio": "1:20",
+        "studentPopulation": "600+",
+        "campusSize": "3 Acres"
+      }
+    },
+    {
+      "id": "predegree-lekki",
+      "name": "Golden Stars Pre-Degree College Lekki",
+      "category": "predegree",
+      "established": "2015",
+      "address": "Plot 105A, Hakeem Dickson Way, Lekki Phase 1, Lagos",
+      "phone": ["08172013127", "08023869783"],
+      "email": "predegree-lekki@uniquegoldenstars.edu.ng",
+      "image": "/images/campuses/predegree-campus.jpg",
+      "headTeacher": "Dr. Michael Johnson",
+      "description": "Our pre-degree college prepares students for university entrance with intensive academic programs.",
+      "facilities": ["University-standard Labs", "Library & Resource Center", "Study Halls", "Accommodation", "Career Counseling"],
+      "stats": {
+        "studentRatio": "1:15",
+        "studentPopulation": "200+",
+        "campusSize": "2 Acres"
+      }
+    },
+    {
+      "id": "nursery-ikeja",
+      "name": "Golden Stars Nursery School Ikeja",
+      "category": "nursery",
+      "established": "2002",
+      "address": "12 Unity Avenue, Ikeja, Lagos",
+      "phone": ["08147677310", "08034065896"],
+      "email": "nursery-ikeja@uniquegoldenstars.edu.ng",
+      "image": "/images/campuses/nursery-campus.jpg",
+      "headTeacher": "Mrs. Funke Martins",
+      "description": "Our Ikeja nursery campus provides exceptional early childhood education in a secure, loving environment.",
+      "facilities": ["Early Learning Center", "Play Area", "Nap Room", "Dining Hall", "Garden"],
+      "stats": {
+        "studentRatio": "1:8",
+        "studentPopulation": "150+",
+        "campusSize": "0.5 Acres"
+      }
+    },
+    {
+      "id": "secondary-lekki",
+      "name": "Golden Stars High School Lekki",
+      "category": "secondary",
+      "established": "2010",
+      "address": "Plot 4, Admiralty Way, Lekki Phase 1, Lagos",
+      "phone": ["07088088408", "08057469697"],
+      "email": "secondary-lekki@uniquegoldenstars.edu.ng",
+      "image": "/images/campuses/secondary-campus.jpg",
+      "headTeacher": "Mr. James Adebayo",
+      "description": "Our Lekki campus offers world-class secondary education with excellent facilities and dedicated staff.",
+      "facilities": ["Science & Tech Labs", "Sports Facilities", "Arts Center", "Boarding", "Swimming Pool"],
+      "stats": {
+        "studentRatio": "1:18",
+        "studentPopulation": "450+",
+        "campusSize": "2.5 Acres"
+      }
+    }
+  ]
+}

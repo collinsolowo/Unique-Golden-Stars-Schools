@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    --primary: 73 88% 59%;
+    --primary-foreground: 222 47% 11%;
+    --secondary: 214 100% 52%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 9% 46%;
+    --accent: 214 100% 52%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 73 88% 59%;
+    --radius: 0.625rem;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 73 88% 59%;
+    --sidebar-primary-foreground: 222 47% 11%;
+    --sidebar-accent: 220 14% 96%;
+    --sidebar-accent-foreground: 222 47% 11%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 73 88% 59%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-white text-slate antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', system-ui, sans-serif;
+    @apply font-bold text-slate;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-slate font-semibold px-6 py-3 rounded-lg transition-all duration-300;
+    @apply hover:bg-primary-dark hover:shadow-lg hover:-translate-y-0.5;
+    @apply focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2;
+  }
+  
+  .btn-secondary {
+    @apply bg-blue text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300;
+    @apply hover:bg-blue-dark hover:shadow-lg hover:-translate-y-0.5;
+    @apply focus:outline-none focus:ring-2 focus:ring-blue focus:ring-offset-2;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-slate text-slate font-semibold px-6 py-3 rounded-lg transition-all duration-300;
+    @apply hover:bg-slate hover:text-white;
+    @apply focus:outline-none focus:ring-2 focus:ring-slate focus:ring-offset-2;
+  }
+  
+  .section-padding {
+    @apply px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16;
+  }
+  
+  .container-wide {
+    @apply max-w-7xl mx-auto;
+  }
+  
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-blue;
+  }
+  
+  .glass {
+    @apply bg-white/80 backdrop-blur-md;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-hover hover:-translate-y-1;
+  }
+  
+  .link-underline {
+    @apply relative;
+  }
+  
+  .link-underline::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300;
+  }
+  
+  .link-underline:hover::after {
+    @apply w-full;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .animate-delay-100 {
+    animation-delay: 100ms;
+  }
+  
+  .animate-delay-200 {
+    animation-delay: 200ms;
+  }
+  
+  .animate-delay-300 {
+    animation-delay: 300ms;
+  }
+  
+  .animate-delay-400 {
+    animation-delay: 400ms;
+  }
+  
+  .animate-delay-500 {
+    animation-delay: 500ms;
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* AOS Animation Overlays */
+[data-aos] {
+  pointer-events: auto !important;
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Focus Visible */
+:focus-visible {
+  @apply outline-2 outline-offset-2 outline-primary;
+}
+
+/* Selection */
+::selection {
+  @apply bg-primary/30 text-slate;
+}
+
+.container-wide {
+  @apply max-w-7xl mx-auto;
+}
+
+.section-padding {
+  @apply px-4 md:px-6 lg:px-12 py-4 md:py-6;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center
+    px-5 py-2.5 rounded-md
+    bg-emerald-600 text-white font-semibold
+    hover:bg-emerald-700 transition;
+}
+
+.btn-outline {
+  @apply inline-flex items-center justify-center
+    px-5 py-2.5 rounded-md
+    border border-slate-300 text-slate-800
+    hover:bg-slate-900 hover:text-white transition;
+}
+
+.shadow-card {
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+}
+

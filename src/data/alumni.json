@@ -1,0 +1,118 @@
+{
+  "association": {
+    "mission": "To foster lifelong connections among Golden Stars alumni, support the school's mission, and create opportunities for networking, professional development, and giving back to the Golden Stars community.",
+    "benefits": [
+      "Access to alumni network and professional connections",
+      "Invitations to exclusive alumni events and reunions",
+      "Career mentorship opportunities",
+      "Access to school facilities (library, sports facilities)",
+      "Alumni newsletter and updates",
+      "Discounts on continuing education programs",
+      "Opportunities to mentor current students"
+    ],
+    "events": [
+      {
+        "title": "Annual Alumni Reunion",
+        "date": "Every July",
+        "description": "A grand celebration bringing together alumni from all graduating classes for networking, reminiscing, and celebration."
+      },
+      {
+        "title": "Alumni Career Fair",
+        "date": "Every March",
+        "description": "Current students connect with alumni professionals for career guidance, internship opportunities, and networking."
+      },
+      {
+        "title": "Homecoming Weekend",
+        "date": "Every November",
+        "description": "A weekend of activities including sports competitions, cultural events, and special recognition ceremonies."
+      },
+      {
+        "title": "Alumni Giving Week",
+        "date": "Every May",
+        "description": "Annual fundraising campaign supporting scholarships, facility improvements, and student programs."
+      }
+    ]
+  },
+  "profiles": [
+    {
+      "name": "Dr. Nnemdi Emmanuella Osadunkwu",
+      "graduationYear": "2016",
+      "program": "Golden Stars High School",
+      "achievement": "Graduated with First Class Honours in Neuroscience from University of Alberta, Canada. Published researcher in neuroplasticity.",
+      "currentRole": "Ph.D. Candidate, Neuroscience",
+      "location": "Edmonton, Canada",
+      "quote": "Golden Stars gave me the foundation to dream big and the discipline to achieve those dreams."
+    },
+    {
+      "name": "Adegoke Mary Oreoluwa",
+      "graduationYear": "2018",
+      "program": "Golden Stars High School",
+      "achievement": "Graduated with First Class Honours in Law from University of Lagos. Winner of multiple academic awards.",
+      "currentRole": "Associate, Top Law Firm",
+      "location": "Lagos, Nigeria",
+      "quote": "The values and work ethic instilled at Golden Stars continue to guide my professional journey."
+    },
+    {
+      "name": "Mbaraonye Ncheta Evans",
+      "graduationYear": "2024",
+      "program": "Golden Stars High School VGC",
+      "achievement": "Best WAEC Candidate in Lagos State 2024. Sidmach Prize winner.",
+      "currentRole": "Undergraduate Student, MIT",
+      "location": "Boston, USA",
+      "quote": "Golden Stars believed in me and pushed me to exceed my own expectations."
+    },
+    {
+      "name": "Ololade Naomi Olayinka",
+      "graduationYear": "2023",
+      "program": "Golden Stars High School Ikeja",
+      "achievement": "British Council Outstanding Cambridge Learners Award - Top in World, English as Second Language",
+      "currentRole": "Undergraduate Student",
+      "location": "United Kingdom",
+      "quote": "The teachers at Golden Stars went above and beyond to ensure we achieved excellence."
+    },
+    {
+      "name": "Chukwuma David Okonkwo",
+      "graduationYear": "2015",
+      "program": "Golden Stars Secondary School",
+      "achievement": "Founder of TechStart Nigeria, a leading tech education startup. Forbes 30 Under 30.",
+      "currentRole": "CEO, TechStart Nigeria",
+      "location": "Lagos, Nigeria",
+      "quote": "Golden Stars taught me that with the right mindset, anything is possible."
+    },
+    {
+      "name": "Sarah Adebayo",
+      "graduationYear": "2017",
+      "program": "Golden Stars High School",
+      "achievement": "Award-winning author and poet. Published three books before age 25.",
+      "currentRole": "Author & Creative Writing Instructor",
+      "location": "London, UK",
+      "quote": "The creative writing program at Golden Stars sparked a passion that became my career."
+    }
+  ],
+  "giving": {
+    "impact": "Alumni contributions have funded scholarships, built new facilities, and supported programs that continue the Golden Stars legacy of excellence.",
+    "waysToGive": [
+      {
+        "method": "Annual Fund",
+        "description": "Unrestricted gifts supporting the school's greatest needs including scholarships, faculty development, and facility improvements."
+      },
+      {
+        "method": "Scholarship Endowment",
+        "description": "Create or contribute to scholarship funds providing financial assistance to deserving students."
+      },
+      {
+        "method": "Facility Naming",
+        "description": "Major gifts can name classrooms, laboratories, or buildings in honor of individuals or families."
+      },
+      {
+        "method": "Program Support",
+        "description": "Direct support to specific programs such as sports, arts, or STEM initiatives."
+      }
+    ],
+    "contact": {
+      "email": "alumni@uniquegoldenstars.edu.ng",
+      "phone": "080-2345-6789",
+      "address": "25 Unity Avenue, Ikeja, Lagos"
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "curriculum": {
+    "overview": "Golden Stars Schools operates a dual curriculum system, combining the Nigerian national curriculum with the British curriculum. This approach ensures our students receive a well-rounded education that prepares them for both local and international opportunities.",
+    "nigerian": {
+      "title": "Nigerian Curriculum",
+      "description": "The Nigerian curriculum provides students with a strong foundation in national values, culture, and educational standards. It prepares learners to understand, resolve problems, and make decisions within the Nigerian context and beyond.",
+      "subjects": ["English Language", "Mathematics", "Basic Science", "Social Studies", "Civic Education", "Agricultural Science", "Home Economics", "Yoruba/Igbo/Hausa", "Christian Religious Studies", "Islamic Religious Studies"]
+    },
+    "british": {
+      "title": "British Curriculum",
+      "description": "The British curriculum offers an international perspective with an outcome-based education approach. It assists learners in functioning at higher cognitive domains, developing critical thinking, creativity, and innovation skills.",
+      "subjects": ["English", "Mathematics", "Science", "ICT", "History", "Geography", "Art & Design", "Music", "Physical Education", "Foreign Languages"]
+    }
+  },
+  "levels": [
+    {
+      "id": "nursery",
+      "title": "Nursery (Ages 6 months - 5 years)",
+      "description": "Our nursery program provides a safe, nurturing environment where young children develop foundational skills through play-based learning. We focus on cognitive, social, emotional, and physical development.",
+      "approach": "Montessori and play-based learning",
+      "keyAreas": ["Language Development", "Motor Skills", "Social Interaction", "Creative Expression", "Early Numeracy"],
+      "admissionAge": "6 months - 5 years"
+    },
+    {
+      "id": "primary",
+      "title": "Primary (Years 1-6, Ages 5-11)",
+      "description": "Our primary program builds strong foundations in literacy, numeracy, and critical thinking. Students explore a wide range of subjects through engaging, hands-on activities.",
+      "approach": "Integrated curriculum with project-based learning",
+      "keyAreas": ["Core Literacy & Numeracy", "Scientific Inquiry", "Digital Literacy", "Creative Arts", "Physical Education"],
+      "admissionAge": "5-11 years"
+    },
+    {
+      "id": "secondary",
+      "title": "Secondary (Years 7-12, Ages 11-17)",
+      "description": "Our secondary program prepares students for university and beyond with rigorous academic standards, leadership development, and comprehensive extracurricular opportunities.",
+      "approach": "Subject specialization with career guidance",
+      "keyAreas": ["Advanced Sciences", "Humanities & Arts", "Technology & Innovation", "Leadership Development", "University Preparation"],
+      "admissionAge": "11-17 years",
+      "exams": ["BECE (Junior Secondary)", "WASSCE/IGCSE (Senior Secondary)", "SAT/TOEFL"]
+    },
+    {
+      "id": "sixthform",
+      "title": "Sixth Form/Pre-Degree (Ages 16-19)",
+      "description": "Our sixth form program provides intensive preparation for university entrance, offering A-Levels, Cambridge programs, and foundation courses for both local and international universities.",
+      "approach": "University-level preparation with personalized mentoring",
+      "keyAreas": ["Advanced Subject Studies", "Research Skills", "Critical Analysis", "University Applications", "Career Planning"],
+      "admissionAge": "16-19 years",
+      "exams": ["A-Levels", "Cambridge AICE", "Foundation Programs"]
+    }
+  ],
+  "calendar": {
+    "terms": [
+      {
+        "name": "First Term",
+        "period": "September - December",
+        "activities": ["Resumption", "Mid-term Break", "Examinations", "Christmas Break"]
+      },
+      {
+        "name": "Second Term",
+        "period": "January - April",
+        "activities": ["Resumption", "Mid-term Break", "Examinations", "Easter Break"]
+      },
+      {
+        "name": "Third Term",
+        "period": "April - July",
+        "activities": ["Resumption", "Examinations", "Graduation", "Summer Break"]
+      }
+    ],
+    "keyDates": [
+      {
+        "date": "2025-09-08",
+        "event": "First Term Resumption",
+        "type": "term"
+      },
+      {
+        "date": "2025-10-25",
+        "event": "Mid-term Break Begins",
+        "type": "holiday"
+      },
+      {
+        "date": "2025-11-03",
+        "event": "Mid-term Break Ends",
+        "type": "term"
+      },
+      {
+        "date": "2025-12-15",
+        "event": "First Term Examinations Begin",
+        "type": "exam"
+      },
+      {
+        "date": "2025-12-20",
+        "event": "Christmas Break Begins",
+        "type": "holiday"
+      },
+      {
+        "date": "2026-01-06",
+        "event": "Second Term Resumption",
+        "type": "term"
+      },
+      {
+        "date": "2026-02-20",
+        "event": "Mid-term Break Begins",
+        "type": "holiday"
+      },
+      {
+        "date": "2026-03-01",
+        "event": "Mid-term Break Ends",
+        "type": "term"
+      },
+      {
+        "date": "2026-04-10",
+        "event": "Second Term Examinations Begin",
+        "type": "exam"
+      },
+      {
+        "date": "2026-04-18",
+        "event": "Easter Break Begins",
+        "type": "holiday"
+      },
+      {
+        "date": "2026-04-27",
+        "event": "Third Term Resumption",
+        "type": "term"
+      },
+      {
+        "date": "2026-07-10",
+        "event": "Third Term Examinations Begin",
+        "type": "exam"
+      },
+      {
+        "date": "2026-07-25",
+        "event": "Graduation Ceremony",
+        "type": "event"
+      },
+      {
+        "date": "2026-07-30",
+        "event": "Summer Break Begins",
+        "type": "holiday"
+      }
+    ]
+  }
+}

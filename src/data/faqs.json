@@ -1,0 +1,109 @@
+{
+  "faqs": [
+    {
+      "category": "General",
+      "questions": [
+        {
+          "question": "What curriculum do you provide?",
+          "answer": "We run a dual curriculum system combining Nigerian and British curricula. The Nigerian curriculum provides strong foundational knowledge and cultural understanding, while the British curriculum offers an international perspective with outcome-based education that develops critical thinking, creativity, and problem-solving skills."
+        },
+        {
+          "question": "What is the minimum age for admission into different levels?",
+          "answer": "Our admission ages are: Crèche from 6 months, Pre-K from 15 months, Reception from age 3, Year 1 from age 5-6, and Secondary from age 10-11 (having completed Year 6). We do not admit into terminal classes (Years 6, 9, and 12) except for students transferring from outside Nigeria or Lagos State with proof."
+        },
+        {
+          "question": "Do you offer Islamic Religious Studies (IRS) and prayer facilities for Muslim students?",
+          "answer": "Yes, Islamic Religious Studies is offered as part of our curriculum, and Muslim students have designated prayer times and facilities. Our boarding facilities also include a praying ground for Muslim students, with an Islamic educator who also serves as Imam."
+        },
+        {
+          "question": "What are your school hours?",
+          "answer": "School hours are 8:00 AM to 2:30 PM for Nursery and Primary, and 8:00 AM to 3:00 PM for Secondary. After-school programs and clubs run until 5:00 PM. Boarding students have structured schedules including prep time and evening activities."
+        }
+      ]
+    },
+    {
+      "category": "Admissions",
+      "questions": [
+        {
+          "question": "How do I apply for admission?",
+          "answer": "Applications can be completed online through our website or in person at any of our campuses. You'll need to submit the application form along with required documents including birth certificate, previous school records, passport photographs, and pay the application fee."
+        },
+        {
+          "question": "What does the entrance examination involve?",
+          "answer": "The entrance examination assesses English Language, Mathematics, and General Knowledge appropriate to the entry level. For nursery applicants, we conduct a readiness assessment focusing on developmental milestones rather than formal testing."
+        },
+        {
+          "question": "When are entrance examinations held?",
+          "answer": "Entrance examinations are held throughout the year, with major sessions in March, May, and August. Specific dates are announced on our website and social media channels. You can also contact our admissions office for the next available examination date."
+        },
+        {
+          "question": "Do you offer scholarships?",
+          "answer": "Yes, we offer several scholarship categories including Academic Excellence Scholarships, Leadership Scholarships, Arts & Sports Scholarships, and Need-Based Scholarships. Scholarships range from partial to full tuition coverage based on merit and need."
+        }
+      ]
+    },
+    {
+      "category": "Academics",
+      "questions": [
+        {
+          "question": "What is your student-teacher ratio?",
+          "answer": "Our student-teacher ratios vary by level: Nursery (1:10), Primary (1:15), Secondary (1:20), and Sixth Form (1:15). This ensures personalized attention and effective learning for all students."
+        },
+        {
+          "question": "What qualifications do your teachers have?",
+          "answer": "All our teachers hold relevant degrees and teaching qualifications. Many have postgraduate degrees and specialized training. We invest significantly in continuous professional development to ensure our faculty remains at the forefront of educational best practices."
+        },
+        {
+          "question": "Do you offer special education support?",
+          "answer": "Yes, we have a dedicated learning support team that works with students who have learning difficulties including dyslexia, ADHD, and other special educational needs. We develop individualized education plans and provide appropriate accommodations."
+        },
+        {
+          "question": "What technology do you use in teaching?",
+          "answer": "We integrate technology throughout our curriculum with interactive whiteboards, tablets, computer labs, and our STEM Innovation Center featuring robotics, 3D printing, and VR learning experiences. All classrooms have internet access and multimedia capabilities."
+        }
+      ]
+    },
+    {
+      "category": "Facilities & Services",
+      "questions": [
+        {
+          "question": "What facilities do you have?",
+          "answer": "Our facilities include modern classrooms, science laboratories, computer labs, libraries, sports facilities (football fields, basketball courts, swimming pools), auditoriums, music rooms, art studios, and boarding facilities at selected campuses."
+        },
+        {
+          "question": "Do you provide boarding facilities?",
+          "answer": "Yes, we offer boarding facilities at our Ikeja and Lekki secondary school campuses. Our boarding houses provide a safe, structured environment with supervised study time, recreational activities, and 24/7 pastoral care."
+        },
+        {
+          "question": "What transportation options are available?",
+          "answer": "We provide school bus services covering major routes across Lagos. All buses are air-conditioned, equipped with GPS tracking, and supervised by trained bus attendants. Door-to-door pickup can be arranged where feasible."
+        },
+        {
+          "question": "What security measures do you have?",
+          "answer": "Security is a top priority. We have 24/7 security personnel, CCTV surveillance, access control systems, and regular security drills. All visitors must register and be escorted while on campus."
+        }
+      ]
+    },
+    {
+      "category": "Fees & Payments",
+      "questions": [
+        {
+          "question": "What are your school fees?",
+          "answer": "School fees vary by level and campus. Nursery ranges from ₦800,000-₦1,200,000 annually, Primary from ₦1,000,000-₦1,500,000, Secondary from ₦1,500,000-₦2,500,000, and Pre-Degree from ₦2,000,000-₦3,000,000. Boarding fees are additional where applicable. Detailed fee schedules are available from our admissions office."
+        },
+        {
+          "question": "What payment options are available?",
+          "answer": "We offer flexible payment options including full payment at the beginning of term (with 5% discount), two installments, or monthly payment plans. We also accept bank transfers, POS payments, and online payments."
+        },
+        {
+          "question": "Are there additional costs beyond tuition?",
+          "answer": "Additional costs may include uniforms, books, examination fees (for external exams), extracurricular activities, and optional services like transportation and lunch. A detailed breakdown is provided during the admission process."
+        },
+        {
+          "question": "Do you offer refunds if a student withdraws?",
+          "answer": "Our refund policy allows for partial refunds based on the timing of withdrawal. Full details are provided in the terms and conditions signed during admission. We encourage parents to review this carefully before enrollment."
+        }
+      ]
+    }
+  ]
+}
