@@ -78,7 +78,7 @@ export default function Home() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/images/hero/hero-bg.jpg"
+            src="/images/about-floating.jpeg"
             alt="Golden Stars Students"
             className="w-full h-full object-cover"
             loading="eager"
@@ -97,7 +97,7 @@ export default function Home() {
                   <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/20 rounded-full mb-6">
                     <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
                     <span className="text-sm font-medium text-slate">
-                      Excellence in Education Since 2000
+                      Excellence in Education Since 1986
                     </span>
                   </div>
                 </AnimateOnScroll>

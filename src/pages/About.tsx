@@ -208,7 +208,7 @@ function HistorySection() {
                 
                 <h3 className="text-2xl font-bold text-slate mb-4">The Beginning</h3>
                 <p className="text-slate-light mb-6">
-                  Mrs. Grace Adeyemi, our founder, established the first Golden Stars Nursery School 
+                  Mr. T.A Shobowale, our founder, established the first Golden Stars Nursery School 
                   with just 15 students in a modest building on Unity Avenue. Her vision was to create 
                   a learning environment where every child would be valued, nurtured, and empowered 
                   to reach their full potential.
