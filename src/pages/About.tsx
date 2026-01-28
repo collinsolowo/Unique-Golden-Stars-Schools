@@ -200,7 +200,7 @@ function HistorySection() {
             <AnimateOnScroll animation="fade-up" delay={100}>
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg text-slate-light mb-6">
-                  The story of Unique Golden Stars Schools began in 2000 with a simple yet powerful 
+                  The story of Unique Golden Stars Schools began in 1986 with a simple yet powerful 
                   vision: to provide world-class education that nurtures the whole child and prepares 
                   them for global citizenship. What started as a small nursery school in Ikeja has 
                   grown into one of Lagos' most respected educational institutions.
@@ -269,7 +269,7 @@ function FoundersNoteSection() {
                   </p>
                   
                   <p className="text-slate-light mb-6">
-                    When I founded Unique Golden Stars Schools in 2000, I had a simple dream: to create 
+                    When I founded Unique Golden Stars Schools in 1986, I had a simple dream: to create 
                     a school where every child would be seen, valued, and empowered to reach their full 
                     potential. I wanted to build an institution that would not only produce excellent 
                     academic results but also nurture well-rounded individuals with strong character 
@@ -365,7 +365,7 @@ function MDsNoteSection() {
 
 function AtAGlanceSection() {
   const stats = [
-    { number: '25+', label: 'Years of Excellence', icon: Calendar },
+    { number: '40+', label: 'Years of Excellence', icon: Calendar },
     { number: '7', label: 'Campuses', icon: Users },
     { number: '5,000+', label: 'Students', icon: Users },
     { number: '500+', label: 'Staff', icon: Users },

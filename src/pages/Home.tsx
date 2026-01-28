@@ -154,7 +154,7 @@ export default function Home() {
                 <AnimateOnScroll animation="fade-up" delay={500}>
                   <div className="grid grid-cols-3 gap-8 mt-12 pt-8 border-t border-white/10">
                     <div>
-                      <div className="text-3xl font-bold text-white">25+</div>
+                      <div className="text-3xl font-bold text-white">40+</div>
                       <div className="text-sm text-white/60">Years of Excellence</div>
                     </div>
                     <div>
@@ -285,7 +285,7 @@ export default function Home() {
                     receives personalized attention and support to reach their full potential.
                   </p>
                   <p className="text-slate-light mb-8">
-                    With over 25 years of experience, we have consistently produced outstanding
+                    With over 40 years of experience, we have consistently produced outstanding
                     results, with our students gaining admission to top universities worldwide.
                   </p>
                   <Link
