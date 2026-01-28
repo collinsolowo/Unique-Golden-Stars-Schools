@@ -242,14 +242,14 @@ export default function Home() {
       </section>
 
       {/* About Preview Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-primary">
         <div className="section-padding">
           <div className="container-wide">
             <div className="grid lg:grid-cols-2 gap-16 items-center">
               <AnimateOnScroll animation="fade-right" delay={200}>
                 <div className="relative">
                   <img
-                    src="/images/about-main.jpg"
+                    src="/images/hero/hero-bg.jpeg"
                     alt="Student studying"
                     className="rounded-3xl shadow-card w-full max-w-md"
                     loading="lazy"
@@ -328,14 +328,14 @@ export default function Home() {
                 {
                   title: 'Primary',
                   age: '5 - 11 years',
-                  image: '/images/primary-program.jpg',
+                  image: '/images/primary-program.jpeg',
                   description: 'Building strong foundations in literacy and numeracy',
                   href: '/schools/nursery-primary',
                 },
                 {
                   title: 'Secondary',
                   age: '11 - 17 years',
-                  image: '/images/secondary-program.jpg',
+                  image: '/images/secondary-program.jpeg',
                   description: 'Preparing students for university and beyond',
                   href: '/schools/secondary',
                 },
@@ -441,7 +441,7 @@ export default function Home() {
       </section>
 
       {/* News Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-primary">
         <div className="section-padding">
           <div className="container-wide">
             <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12">
@@ -507,7 +507,7 @@ export default function Home() {
       </section>
 
       {/* Gallery Preview Section */}
-      <section className="py-20 bg-muted/30">
+      <section className="py-20 bg-white">
         <div className="section-padding">
           <div className="container-wide">
             <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12">

@@ -70,7 +70,7 @@ export default function About({ section = 'main' }: AboutProps) {
       />
       
       {/* Page Header */}
-      <section className="py-20 bg-muted/30">
+      <section className="py-20 bg-white">
         <div className="section-padding">
           <div className="container-wide">
             <Breadcrumbs items={getBreadcrumbs()} className="mb-6" />
@@ -93,7 +93,7 @@ function MainAboutSection() {
             <AnimateOnScroll animation="fade-right" delay={200}>
               <div className="relative">
                 <img
-                  src="/images/about-main.jpg"
+                  src="/images/about-main.jpeg"
                   alt="Student studying at Golden Stars"
                   className="rounded-3xl shadow-card w-full"
                   loading="lazy"

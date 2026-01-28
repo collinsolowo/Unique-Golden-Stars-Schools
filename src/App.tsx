@@ -32,7 +32,7 @@ function App() {
 
   return (
     <Router>
-      <div className="min-h-screen bg-white">
+      <div className="min-h-screen bg-primary">
         <SEO
           title="Welcome"
           description="Unique Golden Stars Schools - Empowering minds, inspiring excellence in an environment for high expectations. Leading private education in Lagos, Nigeria."
