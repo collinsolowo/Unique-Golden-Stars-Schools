@@ -119,7 +119,7 @@ function MainAboutSection() {
                   A Legacy of Excellence
                 </h2>
                 <p className="text-slate-light mb-6">
-                  Founded in 2000, Unique Golden Stars Schools has grown from a small nursery 
+                  Founded in 1986, Unique Golden Stars Schools has grown from a small nursery 
                   school to one of Lagos' most respected educational institutions. Our journey 
                   has been marked by a relentless commitment to excellence and innovation in education.
                 </p>

@@ -1,4 +1,4 @@
-import  { useRef, useState, useEffect } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Download, Calendar, Users, BookOpen, Award, Play, ChevronRight } from 'lucide-react';
 import AnimateOnScroll from '../components/AnimateOnScroll';
@@ -83,8 +83,10 @@ export default function Home() {
             className="w-full h-full object-cover"
             loading="eager"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/80 to-white/40" />
-          <div className="absolute inset-0 bg-gradient-to-t from-white/30 to-transparent" />
+
+          {/* Brighter premium dark overlay */}
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-900/75 via-slate-900/55 to-slate-900/30" />
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-slate-900/30 to-transparent" />
         </div>
 
         {/* Content */}
@@ -92,20 +94,20 @@ export default function Home() {
           <div className="container-wide">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               {/* Text Content */}
-              <div className="max-w-2xl">
+              <div className="max-w-2xl text-white">
                 <AnimateOnScroll animation="fade-up" delay={100}>
-                  <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/20 rounded-full mb-6">
+                  <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/20 backdrop-blur-md rounded-full mb-6 border border-white/10">
                     <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-                    <span className="text-sm font-medium text-slate">
+                    <span className="text-sm font-medium text-white/90">
                       Excellence in Education Since 1986
                     </span>
                   </div>
                 </AnimateOnScroll>
 
                 <AnimateOnScroll animation="fade-up" delay={200}>
-                  <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate leading-tight mb-6">
+                  <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-6 text-white">
                     Where Young
-                    <span className="block text-blue">Minds</span>
+                    <span className="block text-blue-400">Minds</span>
                     <span className="block">
                       <span className="text-primary">Soar</span>
                     </span>
@@ -113,8 +115,8 @@ export default function Home() {
                 </AnimateOnScroll>
 
                 <AnimateOnScroll animation="fade-up" delay={300}>
-                  <p className="text-lg text-slate-light mb-8 max-w-lg">
-                    Fostering academic excellence, creativity, and character in a nurturing 
+                  <p className="text-lg text-white/80 mb-8 max-w-lg">
+                    Fostering academic excellence, creativity, and character in a nurturing
                     environment. Join us in shaping the leaders of tomorrow.
                   </p>
                 </AnimateOnScroll>
@@ -123,24 +125,26 @@ export default function Home() {
                   <div className="flex flex-wrap gap-4">
                     <Link
                       to="/admissions/process"
-                      className="btn-primary inline-flex items-center gap-2 group"
+                      className="btn-primary inline-flex items-center gap-2 group shadow-lg"
                     >
                       Apply Now
                       <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
                     </Link>
+
                     <button
                       onClick={() => alert('E-brochure download coming soon!')}
-                      className="btn-outline inline-flex items-center gap-2 group"
+                      className="btn-outline text-primary border-white/30 hover:border-white inline-flex items-center gap-2"
                     >
-                      <Download className="w-5 h-5" />
-                      E-brochure
+                      <Download className="w-5 h-5 text-primary" />
+                      <p className='text-primary'>E-brochure</p>
                     </button>
+
                     <button
                       onClick={() => alert('Virtual tour coming soon!')}
-                      className="flex items-center gap-2 px-6 py-3 text-slate font-medium hover:text-blue transition-colors group"
+                      className="flex items-center gap-3 text-white/90 hover:text-blue-400 transition-colors group"
                     >
-                      <div className="w-10 h-10 rounded-full bg-blue/10 flex items-center justify-center group-hover:bg-blue/20 transition-colors">
-                        <Play className="w-4 h-4 text-blue" />
+                      <div className="w-10 h-10 rounded-full bg-blue-500/20 backdrop-blur-md flex items-center justify-center group-hover:bg-blue-500/30 transition-colors">
+                        <Play className="w-4 h-4 text-blue-400" />
                       </div>
                       Virtual Tour
                     </button>
@@ -148,18 +152,18 @@ export default function Home() {
                 </AnimateOnScroll>
 
                 <AnimateOnScroll animation="fade-up" delay={500}>
-                  <div className="grid grid-cols-3 gap-8 mt-12 pt-8 border-t border-slate/10">
+                  <div className="grid grid-cols-3 gap-8 mt-12 pt-8 border-t border-white/10">
                     <div>
-                      <div className="text-3xl font-bold text-slate">25+</div>
-                      <div className="text-sm text-slate-muted">Years of Excellence</div>
+                      <div className="text-3xl font-bold text-white">25+</div>
+                      <div className="text-sm text-white/60">Years of Excellence</div>
                     </div>
                     <div>
-                      <div className="text-3xl font-bold text-slate">7</div>
-                      <div className="text-sm text-slate-muted">Campuses</div>
+                      <div className="text-3xl font-bold text-white">7</div>
+                      <div className="text-sm text-white/60">Campuses</div>
                     </div>
                     <div>
-                      <div className="text-3xl font-bold text-slate">5K+</div>
-                      <div className="text-sm text-slate-muted">Students</div>
+                      <div className="text-3xl font-bold text-white">5K+</div>
+                      <div className="text-sm text-white/60">Students</div>
                     </div>
                   </div>
                 </AnimateOnScroll>
@@ -168,6 +172,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+
 
       {/* Chairman Video Section (new) */}
       <section className="py-12 bg-white">
@@ -275,12 +280,12 @@ export default function Home() {
                     Dedicated To Excellence
                   </h2>
                   <p className="text-slate-light mb-6">
-                    We believe in nurturing the whole child - academically, socially, emotionally, 
-                    and physically. Our holistic approach to education ensures that every student 
+                    We believe in nurturing the whole child - academically, socially, emotionally,
+                    and physically. Our holistic approach to education ensures that every student
                     receives personalized attention and support to reach their full potential.
                   </p>
                   <p className="text-slate-light mb-8">
-                    With over 25 years of experience, we have consistently produced outstanding 
+                    With over 25 years of experience, we have consistently produced outstanding
                     results, with our students gaining admission to top universities worldwide.
                   </p>
                   <Link
@@ -310,7 +315,7 @@ export default function Home() {
                   Explore Our Programs
                 </h2>
                 <p className="text-slate-light">
-                  From early childhood to pre-university, we offer comprehensive programs 
+                  From early childhood to pre-university, we offer comprehensive programs
                   designed to meet the unique needs of each developmental stage.
                 </p>
               </div>
@@ -396,7 +401,7 @@ export default function Home() {
                   Why Unique Golden Stars?
                 </h2>
                 <p className="text-slate-400">
-                  Discover what sets us apart and makes us the preferred choice 
+                  Discover what sets us apart and makes us the preferred choice
                   for quality education in Lagos.
                 </p>
               </div>
@@ -484,10 +489,10 @@ export default function Home() {
                           {article.category}
                         </span>
                         <span className="text-xs text-slate-muted">
-                          {new Date(article.date).toLocaleDateString('en-US', { 
-                            month: 'short', 
-                            day: 'numeric', 
-                            year: 'numeric' 
+                          {new Date(article.date).toLocaleDateString('en-US', {
+                            month: 'short',
+                            day: 'numeric',
+                            year: 'numeric'
                           })}
                         </span>
                       </div>
@@ -567,7 +572,7 @@ export default function Home() {
                   Ready to Join Us?
                 </h2>
                 <p className="text-slate-light mb-8">
-                  Take the first step towards an exceptional education for your child. 
+                  Take the first step towards an exceptional education for your child.
                   Schedule a campus visit or start your application today.
                 </p>
                 <div className="flex flex-wrap justify-center gap-4">
